@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --gray-font-color: #555;
+    --darkgary-font-folor: #222;
+    --white-font-color: #fff;
+    --background-gray:#eee;
+    --dargray : #333;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard-Regular';
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--darkgary-font-folor);
+}
+
+main {
+    width: 100vw;
+    height: 2400px;
+}
+
+header {
+    width: 100vw;
+    height: 134px;
+    background-color: var(--white-font-color);
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.navbar .navwrap a{
+    padding: 0 20px;
+}
+
+.section1 {
+    width: 100vw;
+    height : 748px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section1 .container {
+    width: 1280px;
+    height: 748px;
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.section1 .container .imgwrap {
+    width: 626px;
+    height: 362px;
+    position: relative;
+    
+}
+
+.section1 .container .imgwrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.section1 .container .imgwrap h1 {
+    font-size: 30px;
+    position: absolute;
+    padding:0 0 0 30px;
+    line-height: 1.4;
+    bottom: 25%;
+    color: var(--white-font-color);
+}
+
+.section1 .container .imgwrap p {
+    font-size: 18px;
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    color: var(--white-font-color);
+}
+
+
+/* section2--------------------------------------------=-=-=-- */
+
+.section2 {
+    width: 100vw;
+    height: 672px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.section2 .bigbox {
+    width: 1280px;
+    height: 486px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+/*     background-color: lightcoral; */
+}
+
+.section2 .bigbox .big-box-title {
+    display: flex;
+}
+
+.section2 .bigbox .big-box-title span:nth-child(1) {
+    font-size: 36px;
+}
+
+.section2 .bigbox .big-box-title span:nth-child(2) {
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 10px;
+} 
+
+.section2 .bigbox .sec2-itembox {
+    width: 100%;
+    height: 407px;
+    display: flex;
+}
+
+.section2 .bigbox .sec2-itembox .sec2-textbox {
+    display: flex;
+    padding: 0 28px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.section2 .bigbox .sec2-itembox .sec2-textbox .pricewrap span:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section2 .bigbox .sec2-itembox .sec2-textbox .pricewrap span:nth-child(2) {
+    font-size: 16px;
+}
+
+
+
+
+
+.section2 .bigbox .sec2-itembox .sec2-textbox .hashtagwrap{
+    display: flex;
+    margin: 20px 0;
+}
+
+.section2 .bigbox .sec2-itembox .sec2-textbox .hashtagwrap span {
+    margin: 0 5px;
+}
+.section2 .bigbox .sec2-itembox .sec2-textbox .hashtagwrap span:nth-child(1) {
+    font-size: 14px;
+    color: #fff;
+    background-color: #5778bb;
+    padding: 3px 3px;
+    border-radius: 3px;
+}
+
+.section2 .bigbox .sec2-itembox .sec2-textbox .hashtagwrap span:nth-child(2) {
+    font-size: 14px;
+    color: #efe5f6;
+    background-color: #a03fe4;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+
+.section2 .bigbox .sec2-itembox .sec2-textbox h1 {
+    font-size: 30px;
+}
+.section2 .bigbox .sec2-itembox .sec2-textbox p {
+    font-size: 18px;
+    color: #ff5c46;
+    padding: 30px 0;
+}
+.section2 .bigbox .sec2-itembox .sec2-imgbox {
+    width: 735px;
+    height: 400px;
+}
+
+.section2 .bigbox .sec2-itembox .sec2-imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* section 3 --------------------------------------- */
+.section3 {
+    width: 100vw;
+    height: 746px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .sec3-mainbox{
+    width: 1280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+/*     background-color: lightcyan; */
+}
+
+.section3 .sec3-mainbox .sec3-itembox .sec3-item {
+    width: 300px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.section3 .sec3-mainbox .sec3-itembox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 .sec3-mainbox .sec3-imgwrap {
+    width: 100%;
+    height: 200px;
+}
+
+.section3 .sec3-mainbox .sec3-imgwrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section3 .sec3-mainbox .sec3-item .sec3-item-texwrap {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec3-hashtagbox {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #e6f2fb;
+    gap: 10px;
+}
+
+.sec3-hashtagbox span {
+    font-size: 16px;
+    margin-left: 16px;
+    color: #8d8d8d;
+}
+.section3 .sec3-mainbox .sec3-item .sec3-item-texwrap h1 {
+    font-size: 20px;
+    color: var(--dargray);
+    padding: 20px 0;
+}
+
+.section3 .sec3-mainbox .sec3-item .sec3-item-texwrap h2 {
+    font-size: 16px;
+    color: var(--gray-font-color);
+}
+
+.section3 .sec3-mainbox .sec3-item .sec3-item-texwrap .sec3-item-pricewrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 25px 0;
+}
+
+.section3 .sec3-mainbox .sec3-item .sec3-item-texwrap .sec3-item-pricewrap span:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dargray);
+}
+
+.section3 .sec3-mainbox .sec3-item .sec3-item-texwrap .sec3-item-pricewrap span:nth-child(2) {
+    font-size: 16px;
+    color: var(--gray-font-color);
+}
+
+.section3 .sec3-textbox {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 .sec3-textbox h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section3 .sec3-textbox .sec3-hashtagwrap span {
+    font-size: 18px;
+    padding-left: 30px;
+    color: var(--dargray);
+    cursor: pointer;
+}
+
+
+
+
+
+/* active 효과 */
+
+.active {
+    font-weight: bold;
+}
